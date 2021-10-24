@@ -1,0 +1,13 @@
+<div class="col-md-6 newsletter-container">
+  <a href="/post/<%= postURL %>" target="_blank">
+    <div class="newsletter">
+      <div class="header-img">
+        <img src="<%= imageURL %>" alt="<%= title %>" />
+      </div>
+      <h4><%= title %></h4>
+      <% const summery = ogcontent.substring(0, 100) + "..." %>
+      <small class="content"><%= summery %> </small>
+      <div></div>
+    </div>
+  </a>
+</div>

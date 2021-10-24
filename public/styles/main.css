@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  background: #cca160;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.logo img {
+  width: 10%;
+}
+
+.login-container {
+  height: 100vh;
+}
+
+.login-container .login-form {
+  margin: auto;
+}
+
+.login-container .login-form .form-input {
+  margin-top: 1rem;
+}
+
+.login-container .login-form .form-input input {
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  min-width: 100%;
+}
+
+.login-container .login-form .form-submit {
+  margin-top: 1rem;
+}
+
+.login-container .login-form .form-submit button {
+  padding: 0.5rem 2rem;
+  background-color: #3800bb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.login-container .login-form .form-submit button:hover {
+  background-color: #1c0475;
+}
+
+#post-title {
+  width: 100%;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #ebebeb;
+  font-size: 24px;
+  padding: 0.5rem 2rem;
+}
+
+.ql-container {
+  height: 50vh !important;
+}
+
+.publish-btn {
+  text-align: end;
+  margin: 1rem 0;
+}
+
+.publish-btn button {
+  border: none;
+  padding: 0.5rem 2rem;
+  background-color: #ffc400;
+  color: #1f1f1f;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.publish-btn button:hover {
+  background-color: #ffc506;
+}
+
+.newsletter-container a {
+  text-decoration: none;
+}
+
+.newsletter-container .newsletter {
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .newsletter-container .newsletter {
+    background-color: #f1f1f1;
+    padding: 1rem;
+  }
+}
+
+.newsletter-container .newsletter .header-img {
+  text-align: center;
+}
+
+.newsletter-container .newsletter .header-img img {
+  width: 100%;
+  height: 320px;
+  border-radius: 4px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+@media screen and (max-width: 576px) {
+  .newsletter-container .newsletter .header-img img {
+    height: 220px;
+  }
+}
+
+.newsletter-container .newsletter h4 {
+  margin: 1rem 0;
+  color: black;
+}
+
+.newsletter-container .newsletter .content {
+  color: #1f1f1f;
+}
+
+.full-post-container {
+  padding: 2rem;
+}
+
+@media screen and (max-width: 576px) {
+  .full-post-container {
+    padding: 1rem;
+  }
+}
+
+.full-post-container .post-title {
+  text-align: center;
+  margin: 4rem 0;
+  padding: 0 1rem;
+}
+
+.full-post-container .post-title h2 {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .full-post-container .post-title h2 {
+    font-size: 24px;
+  }
+}
+
+.full-post-container .full-post .post-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.full-post-container .full-post .post-content {
+  margin-top: 2rem;
+  text-align: justify;
+}
+
+.full-post-container .sidebar .recents a {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+.full-post-container .sidebar .recents .recent {
+  margin-bottom: 1rem;
+}
+
+.full-post-container .sidebar .recents .recent .title {
+  margin: 0.5rem 0;
+}
+
+.full-post-container .sidebar .recents .recent img {
+  width: 164px;
+  height: 84px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.full-post-container .sidebar .recents .recent .date {
+  color: #5e5e5e;
+}
+
+.pagination {
+  margin: 2rem 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.pagination a {
+  font-weight: 500;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #ce9e00;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.pagination a:hover {
+  border-bottom: 1px solid #ffc400;
+}
+/*# sourceMappingURL=main.css.map */

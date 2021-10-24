@@ -1,0 +1,26 @@
+<%- include('./partials/nav') %>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col">
+      <h1>Ollorun News</h1>
+    </div>
+  </div>
+</div>
+
+<div class="newsletters">
+  <div class="container">
+    <div class="row">
+      <% newsletters.forEach(newsletter => { %> <%-
+      include('./partials/newsletter', newsletter) %> <% }) %>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="pagination">
+        <% for( let i = paginate.start; i <= paginate.pages; i++ ) { %>
+        <a href="/posts/<%= i %> "><%= i %> </a>
+        <% } %>
+      </div>
+    </div>
+  </div>
+</div>
